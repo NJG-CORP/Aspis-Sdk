@@ -4,7 +4,7 @@ import {Axios} from "axios";
 export class AspisApi {
   private axios: Axios;
 
-  constructor(private readonly apiKey: string, private readonly basePath = 'https://api.aspis.ibisweb3.dev/api/v1') {
+  constructor(private readonly apiKey: string, private readonly basePath = 'https://api.aspis.network/api/v1') {
     this.axios = new Axios({baseURL: basePath, headers: {'Authorization': 'Bearer ' + this.apiKey}})
   }
 

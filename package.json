@@ -1,6 +1,6 @@
 {
-  "name": "@aspis/sdk",
-  "version": "0.1.0",
+  "name": "@aspis-network/sdk",
+  "version": "0.1.1",
   "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
